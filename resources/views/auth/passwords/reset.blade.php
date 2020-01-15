@@ -1,4 +1,7 @@
 @extends('layouts.app')
+ @section('title')
+   Reset
+  @endsection
 
 @section('home_contents')
 <div class="container">
@@ -62,4 +65,6 @@
         </div>
     </div>
 </div>
+
+
 @endsection

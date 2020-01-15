@@ -23,4 +23,4 @@ Route::get('/contact','HomeController@contact')->name('contact');
 Route::get('/blog-single','HomeController@blog_single')->name('blog_single');
  Auth::routes();
 
- // Route::get('/home', 'HomeController@index')->name('home');
+ Route::get('/home', 'HomeController@index')->name('home');
